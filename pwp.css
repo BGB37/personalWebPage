@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*background-color:red;   My CSS document is attached to my file.*/  
+}
+
+
+body {
+    width: 100%;
+    padding-top: 200px;
+}
+
+#hello {
+    padding-top: 50px;
+}
+
+.intro-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #38E54D;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 70px;
+}
+
+.clouds {
+    width: 200px;
+    height: 200px;
+}
+
+
+#cloud-1 {
+position: absolute;
+top: 80px;
+left: 500px;
+
+
+}
+
+#cloud-2 {
+    position: absolute;
+    top: 50px;
+    right: 400px;
+}
+
+#mountain {
+    display: block;  /* Changing display property to block to be able to give it a margin:auto; */ 
+    width: 700px;
+    height: 200px;
+    margin: auto;
+}
+
+hr {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: dotted;
+    border-width: 7px;
+    width: 100px;
+    margin: auto;
+    border-bottom-color: #38E54DAA;
+}
+
+
+#mid-container {
+    width: 600px;
+    margin: 50px auto 0px auto;
+    padding: 5px;
+}
+
+.mid-container-divs {
+    margin:10px 0px 20px 0px;
+}
+
+#second-mid-container {
+    /* display: flex;
+    flex-direction: column; */
+    width: 600px;
+    height: 600px;
+    margin: 100px auto 0px auto;
+    padding: 5px;
+}
+
+
+#second-mid-container-first-box {
+    display: flex; 
+
+}
+
+#second-mid-container-second-box {
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+#second-mid-container-paragraph {
+    padding-left: 10px;
+}
+
+.iframes {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   }
+   
+   #iframe-1 {
+   float: left;
+   margin-right: 5px;
+   }
+   
+   #iframe-2 {
+       float: right;
+       margin-left: 5px;
+   }
+
+   .skills-hobbies-headings {
+    font-family: cursive;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+   }
+
+   #footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #0c8a3c;
+    margin-top: 50px;
+    
+   }
+
+   a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+   }
+
+    a:hover {  /* pseudo classes */
+    text-decoration: underline; 
+    color: orange;
+    font-size: 23px;
+    transition: 2s;
+   }
